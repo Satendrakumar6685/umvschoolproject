@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.myschoo.com</title>
+    <style>
+        body{
+            margin: 0;
+        }
+            #mainarea{
+                width: 100%;
+                height: auto;
+                background-color: aqua;
+            }
+            #toparea{
+                width: 100%;
+                height: 35px;
+                background-color: rgb(19, 30, 126);
+            }
+            #toparea1{
+                width: 250px;
+                height:15px;
+                background-color: crimson;
+                float: left;
+                margin: 10px 80px;
+               
+
+            }
+            #toparea a:link, #toparea a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #toparea a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #toparea2{
+                width: 500px;
+                height:20px;
+                background-color: crimson;
+                float: left;
+                margin: 7px 0;
+               
+            }
+            #toparea3{
+                width: 100px;
+                height:25px;
+                background-color: crimson;
+                float: right;
+                margin: 5px 90px;
+               
+            }
+            .fi{
+                width:40px;
+                height:25px;
+                background-color: chartreuse;
+                float: left;
+                margin:0 2px;
+               
+
+            }
+            .fi img{
+                width:100%;
+                height:100%;
+            }
+            #headerarea{
+                width: 100%;
+                height: 150px;
+                background-color: coral;
+            }
+            #logo{
+                width: 110px;
+                height: 110px;
+                background-color: rgb(67, 211, 59);
+                float: left;
+                margin: 20px 90px;
+                border-radius: 50px;
+            }
+            #logo img{
+                width: 110px;
+                height: 110px;
+                border-radius: 50px;
+
+            }
+            #title{
+                width: 550px;
+                height: 100px;
+                float: left;
+                background-color: gray;
+                margin: 25px auto;
+            }
+            #title1{
+                width: 550px;
+                height: 50px;
+                float: left;
+                background-color: aqua;
+             
+            }
+            #title2{
+                width: 550px;
+                height: 50px;
+                background-color: bisque;
+                float: left;
+
+            }
+            #menuarea{
+                width: 100%;
+                height: 40px;
+                background-color:  rgb(19, 30, 126);
+            }
+            #menuarea ul{
+					list-style:none;
+					margin: 0 65px;
+					padding: 0;
+				}
+			#menuarea ul li{
+					float: left;
+					}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color: rgb(245, 219, 219);
+					text-decoration: none;
+					background: rgb(19, 30, 126);
+					padding: 10px 25px;
+					display: block;
+					border-bottom: solid 1px #000;
+					}
+			#menuarea ul li a:hover{
+					color: yellow;
+					background: red;
+				}
+			#menuarea ul li ul{
+					display: none;
+					}
+			#menuarea ul li:hover ul{
+					display: block;
+					position: absolute;
+					z-index: 100;
+					
+					}
+			#menuarea ul li:hover ul li{
+						float: none;
+						}
+            #about{
+                width:100%;
+                height:300px;
+                background-color: rgba(52, 65, 181, 0.7);
+                float: left;
+
+            }
+            #about1{
+                width: 165px;
+                height: 40px;
+               /* background-color: yellow;*/
+                margin: 120px auto;
+            }
+            #container{
+                width: 100%;
+                height: 1400px;
+                background-color: burlywood;
+                float: left;
+               
+            }
+            .rule{
+                width:100%;
+                height: 50px;
+                background-color: hotpink;
+                float: left;
+            }
+            .rule2{
+                width: 400px;
+                height: 30px;
+                background-color: aqua;
+                margin: 10px 100px;
+                border-left: solid 5px blue;
+
+            }
+            .rule3{
+                width:100%;
+                height:400px;
+                background-color: lightgreen;
+                margin: 25px auto;
+            }
+            .rule4{
+                width:1200px;
+                height:400px;
+                background-color: rgb(22, 208, 22);
+                margin: 25px auto;
+            }
+
+           .photo{
+                width:300px;
+                height: 300px;
+                background-color: lightsalmon;
+                margin: 35px 30px;
+                float: left;
+            }
+            .photo img{
+                width:300px;
+                height: 300px;
+            }
+            .displine{
+                width:800px;
+                height: 300px;
+                background-color: burlywood;
+                float: left;
+                margin: 35px 0px;
+                overflow: auto;
+            }
+          
+          
+       
+        
+           
+         
+           #footer{
+               width:100%;
+               height: 500px;
+               background-color:rgb(19, 30, 126); 
+               float: left;
+           }
+           #footer1{
+               width:1200px;
+               height:300px;
+               background-color: brown;
+              
+               margin: 60px auto;
+           }
+           .footer2{
+               width:300px;
+               height: 300px;
+               background-color: cadetblue;
+               margin:0px 50px;
+               float: left;
+               
+           }
+           #flogo{
+               width: 100px;
+               height: 100px;
+               background-color: chartreuse;
+               margin:25px auto;
+               border-radius: 50px;
+           }
+           #flogo img{
+               width: 100px;
+               height: 100px;
+               border-radius: 50px;
+           }
+           #fhead{
+               width:235px;
+               height: 20px;
+             /*  background-color: cyan;*/
+               margin: 0 auto;
+           }
+           #address{
+               width:230px;
+               height: 50px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact{
+                width:230px;
+               height: 20px;
+               /*background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact a:link, #contact a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #contact a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #email{
+                width:230px;
+               height: 20px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+              
+           }
+           #email a:link, #email a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #email a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #links1{
+                width:100px;
+                height: 30px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                border-left: solid 5px white;
+
+            }
+            #links2{
+                width:100px;
+                height: 100px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                
+
+            }
+            #boderline{
+                width:1200px;
+               height:50px;
+               background-color: brown;
+             
+               margin: 15px auto;
+               border-top: solid 1px white;
+            }
+            #boderline1{
+                width:250px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+             
+               margin: 0px auto;
+          
+            }
+            #boderline2{
+                width:360px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+               border-top: solid 1px white;
+               margin: 3px auto;
+          
+            }
+
+
+    </style>
+</head>
+<body>
+    <div id="mainarea">
+        <div id="toparea">
+            <div id="toparea1">
+                <a href="tel:7903644286">7903644286 |<a href="#">umv.jsr@gmail.com</a></a>
+
+            </div>
+            <div id="toparea2">
+                <marquee>Well Come To UTKARMIT MADYA VIDHYALE</marquee>
+            </div>
+            <div id="toparea3">
+                <div class="fi"><a href="#"><img src="download.png"\></a></div>
+                <div class="fi"><a href="#"><img src="instagram.jpg"\></a></div>
+
+            </div>
+           
+        
+            
+
+        </div>
+        <div id="headerarea">
+            <div id="logo"><img src="logo.jpg"\></div>
+            <div id="title">
+                <div id="title1"><font color="darkblue"><h1>UTKARMIT MADHYA VIDYALE</h1></font></div>
+                <div id="title2"><font color="darkblue"><h2>Affiliated to C.B.S.E, New Delhi  |  Affiliated No. -</h2></font></div>
+            </div>
+
+        </div>
+
+    
+        <div id="menuarea">
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="academic.html">ACADEMICS</a></li>
+                <li><a href="#">ADMISSION</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="#">FACILITY</a></li>
+	 <li><a href="#">RESULT</a></li>
+              
+                <li><a href="#">NOTICE</a></li>
+                <li><a href="#">GALLARY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <div id="about">
+            <div id="about1"><H1><font color="white">ACADEMIC</font></H1></div>
+
+        </div>
+        <div id="container">
+            <div class="rule">
+                <div class="rule2"><h2>RULE & REGULATIONS</h2></div>
+            </div>
+            <div class="rule3">
+                <div class="rule4">
+                     <div class="photo"><img src="withdrawal.jpg"\></div>
+                    <div class="displine">
+                        <p>‘6-day system’ of time table is followed by the School.</p>
+                        <p>Students need to maintain over 80% attendance for each term in every academic year. </p>
+                        <p>Every student should be present on the re-opening day of the school.</p>
+                        <p>A previous application for leave must be submitted.</p>
+                        <p>In case of sickness and unforeseen circumstances, the students must show the teacher the leave letter without fail.</p>
+                        <p>A medical certificate must be produced for absence due to a contagious or infectious illness. </p>
+                        <p>Continuous absence for 15 days without leave will be considered equivalent to withdrawal of the student from Church School and his/her name will be struck off the roil.</p>
+                        <p>Regular class attendance is vital in academic success. Hence, every student is required to attend a minimum of 75% of the classes held in each subject per academic session. Any student who fails to meet the minimum of 75% class attendance is liable to be detained at the Final Exam.</p>
+                        <p>Assembly attendance is compulsory because most of the important information Is announced during the Assembly. When the bell rings at 7.25 a.m. / 11.25 a.m., all students must assemble for the assembly. Attendance in every official Programme organized by the school is compulsory. Attending academic and non-academic programmes of the school will be an important factor.</p>
+                        <p>A student returning to school after suffering from an infectious or contagious disease must produce a fitness certificate from the doctor permitting him/her to re-join classes.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="rule">
+                <div class="rule2"><h2>DISCIPLINE</h2></div>
+            </div>
+            <div class="rule3">
+                <div class="rule4">
+                     <div class="photo"><img src="withdrawal.jpg"\></div>
+                    <div class="displine">
+                        <p>Students are expected to arrive at the school before the first bell i.e. 7.25 a.m. The school gates will be closed at the bell. Late comers will return home at the risk of the parent/guardian.</p>
+                        <p>student should be regular in attendance, punctual, diligent in the work, neat and clean in her dress and of exemplary behaviour. </p>
+                        <p>Students whose attendance is irregular, who do not pay their fees, who are habitually late or absent, lazy or disobedient, whose conduct is injurious to the moral tone of the school or incompatible with its discipline, may be dismissed..</p>
+                        <p>Students are to address their teachers and all members of the school staff with due respect and politeness. Arrogant and challenging behaviour towards teaching or non-teaching staff is not desired..</p>
+                        <p>Every student must wear an identity card issued by the school.</p>
+                        <p>Every student attending the school is obliged to take part in co-curricular activities organized by the school. </p>
+                        <p>Cameras, magazines, newspaper, cassettes, CD’s, i-pods or cell phones must not be brought to the school without Principal’s consent.  The school management has every right to carry out inspection as and when required and confiscate them.</p>
+                        <p>During all activities and outgoings the school tales all necessary care and precautions. Yet in spite of that,  if an accident or mishap occurs, the school shall in no way be held responsible, or liable.</p>
+                        <p>Assembly attendance is compulsory because most of the important information Is announced during the Assembly. When the bell rings at 7.25 a.m. / 11.25 a.m., all students must assemble for the assembly. Attendance in every official Programme organized by the school is compulsory. Attending academic and non-academic programmes of the school will be an important factor.</p>
+                        <p>A student returning to school after suffering from an infectious or contagious disease must produce a fitness certificate from the doctor permitting him/her to re-join classes.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="rule">
+                <div class="rule2"><h2>ADDMISSION & WITHDRAWAL</h2></div>
+            </div>
+            <div class="rule3">
+                <div class="rule4">
+                     <div class="photo"><img src="addmission.jpg"\></div>
+                    <div class="displine">
+                       <P>Admission depends on vacancies, performance in the entrance test, interview, age and the student's general suitability for the school.</P>
+                       <P>The management reserves the right to refuse admission without assigning reason.</P>
+                       <P>In case of withdrawal of a child from school a month's notice or a month's fee is required. If a student appears for the final exam, he/she will be required to pay the fees for the entire academic session.</P>
+                        <P>A written application must be made by the parent or guardian for the Transfer Certificate of a student,</P>
+                        <P>The Transfer Certificate will be issued at a fee of Rs. 50/- only when all the dues to the school have been paid, all library books and school property returned.</P>
+                        <P>The management reserves the right to make the final decision regarding Transfer Certificate.</P>
+                        <P>A fee of Rs. 10/- will be charged for any other kind of certificate.</P>
+                        <P>No admission is complete beyond the kindergarten until the Transfer certificate from the previous school is produced. For fresh admissions, the name of the student and the date of birth should be entered in the prescribed admission form, signed by the parent or guardian and this will not be subsequently altered.</P>
+                        <P>If a student is withdrawn for any length of time and parents wish that she be re – admitted, an entrance test will be held and the Admission Fee will be charged again.</P>
+                    </div>
+                </div>
+
+            </div>
+           
+           
+
+
+        </div>
+
+
+        
+                
+               
+                    <div id="footer">
+                        <div id="footer1">
+                            <div class="footer2">
+                                <div id="flogo"><img src="logo.jpg"\></div>
+                                <div id="fhead"><p><font color="white">UTKARMIT MADHYA VIDYALE</font></p></div>
+                                <div id="address"><font color="white">Address:-Bhatiya Basti,Adityapur Gamharia main road, Jharkhand-832109</font></div>
+                                <div id="contact"><font color="white">Contact:-</font><a href="tel:7903644286">7903644286</a></div>
+                                <div id="email"><font color="white">E-mail:-<a href="mail:umv.jsr@gmail.com">umv.jsr@gmail.com</a></font></div>
+                            </div>
+                            <div class="footer2">
+                                <div id="links1"><h3><font color="white">Imp. Link's</font></h3></div>
+                                <div id="links2">
+                                    <ul>
+                                        <li><a href="#">HOME</a></li><BR/>
+                                        <li><a href="#">HOME</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer2"></div>
+                        </div>
+
+                        <div id="boderline">
+                            <div id="boderline1"><font color="white" face="sans-serif"><b>© ALL Rights Reserved to U.M.V</b></font></div>
+                            <div id="boderline2"><font color="white" face="cursive"><b>Design & Devloped By:-S.K.Prasad Cse2021@</b></font></div>
+                        </div>
+                    </div>
+                    
+
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>

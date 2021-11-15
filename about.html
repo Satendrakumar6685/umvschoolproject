@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.myschoo.com</title>
+    <style>
+        body{
+            margin: 0;
+        }
+            #mainarea{
+                width: 100%;
+                height: auto;
+                background-color: aqua;
+            }
+            #toparea{
+                width: 100%;
+                height: 35px;
+                background-color: rgb(19, 30, 126);
+            }
+            #toparea1{
+                width: 250px;
+                height:15px;
+                background-color: crimson;
+                float: left;
+                margin: 10px 80px;
+               
+
+            }
+            #toparea a:link, #toparea a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #toparea a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #toparea2{
+                width: 500px;
+                height:20px;
+                background-color: crimson;
+                float: left;
+                margin: 7px 0;
+               
+            }
+           
+            #toparea3{
+                width: 100px;
+                height:25px;
+                background-color: crimson;
+                float: right;
+                margin: 5px 90px;
+               
+            }
+            .fi{
+                width:40px;
+                height:25px;
+                background-color: chartreuse;
+                float: left;
+                margin:0 2px;
+               
+
+            }
+            .fi img{
+                width:100%;
+                height:100%;
+            }
+            #headerarea{
+                width: 100%;
+                height: 150px;
+                background-color: coral;
+            }
+            #logo{
+                width: 110px;
+                height: 110px;
+                background-color: rgb(67, 211, 59);
+                float: left;
+                margin: 20px 90px;
+                border-radius: 50px;
+            }
+            #logo img{
+                width: 110px;
+                height: 110px;
+                border-radius: 50px;
+
+            }
+            #title{
+                width: 550px;
+                height: 100px;
+                float: left;
+                background-color: gray;
+                margin: 20px auto;
+            }
+            #title1{
+                width: 550px;
+                height: 50px;
+                float: left;
+                background-color: aqua;
+             
+            }
+            #title2{
+                width: 550px;
+                height: 50px;
+                background-color: bisque;
+                float: left;
+
+            }
+            #menuarea{
+                width: 100%;
+                height: 40px;
+                background-color:  rgb(19, 30, 126);
+            }
+            #menuarea ul{
+					list-style:none;
+					margin: 0 65px;
+					padding: 0;
+				}
+			#menuarea ul li{
+					float: left;
+					}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color: rgb(247, 229, 229);
+					text-decoration: none;
+					background: rgb(19, 30, 126);
+					padding: 10px 25px;
+					display: block;
+					border-bottom: solid 1px #000;
+					}
+			#menuarea ul li a:hover{
+					color: yellow;
+					background: red;
+				}
+			#menuarea ul li ul{
+					display: none;
+					}
+			#menuarea ul li:hover ul{
+					display: block;
+					position: absolute;
+					z-index: 100;
+					
+					}
+			#menuarea ul li:hover ul li{
+						float: none;
+						}
+            #about{
+                width:100%;
+                height:300px;
+                background-color: rgba(52, 65, 181, 0.7);
+                float: left;
+
+            }
+            #about1{
+                width: 165px;
+                height: 40px;
+               /* background-color: yellow;*/
+                margin: 120px auto;
+            }
+            #containt{
+                width: 100%;
+                height: 880px;
+                background-color: burlywood;
+                float: left;
+            }
+            #containt2{
+                width:600px;
+                height:400px;
+                background-color: chocolate;
+               
+                margin: 0 auto;
+            }
+            #containt2 img{
+                width:600px;
+                height:400px;
+                border: solid 1px blue;
+            }
+            #containt3{
+                width:100%;
+                height:450px;
+                background-color: coral;
+                float: left;
+                margin: 10px 0;
+
+            }
+            #thought{
+                width: 600px;
+                height: 50px;
+                background-color: darkgoldenrod;
+                margin: 2px auto;
+            }
+            #paragraph{
+                width: 1100px;
+                height: 340px;
+                background-color: brown;
+                margin: 10px auto;
+            }
+            #pdesk{
+                width: 100%;
+                height: 50px;
+                background-color: olivedrab;
+                float:left;
+            }
+            #pdesk1{
+                width: 270px;
+                height: 40px;
+                background-color: rgb(28, 165, 101);
+                margin: 5px auto;
+                border-left: solid 5px rgb(19, 30, 126);
+                
+            
+            }
+            #pmessage{
+                width: 100%;
+                height: 450px;
+                float:left;
+                background-color: darkgoldenrod;
+
+            }
+            #pmessage1{
+                width: 1250px;
+                height: 450px;
+             
+                background-color: rgb(134, 216, 39);
+                margin: 0 auto;
+
+            }
+            #pmessage2{
+                width: 750px;
+                height: 450px;
+             
+                background-color: rgb(216, 39, 187);
+                float:left;
+
+            }
+
+            #pmessage3{
+                width: 500px;
+                height: 250px;
+                float: right;
+                background-color: rgb(19, 30, 126);
+                margin: 100px 0;
+
+            }
+            #pmessage3 img{
+                width: 490px;
+                height: 240px;
+                margin: 5px;
+               
+            }
+			
+        
+            #facilities{
+                width: 100%;
+                height: 50px;
+                background-color: rgb(230, 27, 31);
+                float: left;
+            }
+            #f1{
+                width: 270px;
+                height: 40px;
+                background-color: rgb(62, 102, 84);
+                margin: 5px auto;
+                border-left: solid 5px rgb(19, 30, 126,);
+            }
+            #f2{
+                width: 100%;
+                height: 500px;
+                background-color: rgb(19, 30, 126);
+                float: left;
+            }
+            #f3{
+                width: 1200;
+                height: 400px;
+                background-color: rgba(218, 208, 205, 0.878);
+                margin: 50px;
+            }
+            .box{
+                width: 270px;
+                height:300px;
+                background-color: brown;
+                margin: 50px 10px;
+                float: left;
+                padding: 5px 10px;
+            }
+            .box2{
+                width:266px;
+                height:250px;
+                margin: 2px;
+                background-color: aquamarine;
+                float:left;
+
+            }
+            .box2 img{
+                width: 266px;
+                height:250px;
+             
+               border: solid 1px rgb(19, 30, 126);
+                float: left;
+            }
+            .box3{
+                width:266px;
+                height:40px;
+                margin: 2px;
+                background-color: rgb(144, 127, 255);
+                float:left;
+                border-left: solid 5px rgb(19, 30, 126);
+
+            }
+         
+           #footer{
+               width:100%;
+               height: 500px;
+               background-color:rgb(19, 30, 126); 
+               float: left;
+           }
+           #footer1{
+               width:1200px;
+               height:300px;
+               background-color: brown;
+              
+               margin: 60px auto;
+           }
+           .footer2{
+               width:300px;
+               height: 300px;
+               background-color: cadetblue;
+               margin:0px 50px;
+               float: left;
+               
+           }
+           #flogo{
+               width: 100px;
+               height: 100px;
+               background-color: chartreuse;
+               margin:25px auto;
+               border-radius: 50px;
+           }
+           #flogo img{
+               width: 100px;
+               height: 100px;
+               border-radius: 50px;
+           }
+           #fhead{
+               width:235px;
+               height: 20px;
+             /*  background-color: cyan;*/
+               margin: 0 auto;
+           }
+           #address{
+               width:230px;
+               height: 50px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact{
+                width:230px;
+               height: 20px;
+               /*background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact a:link, #contact a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #contact a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #email{
+                width:230px;
+               height: 20px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+              
+           }
+           #email a:link, #email a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #email a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #links1{
+                width:100px;
+                height: 30px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                border-left: solid 5px white;
+
+            }
+            #links2{
+                width:100px;
+                height: 100px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                
+
+            }
+            #boderline{
+                width:1200px;
+               height:50px;
+               background-color: brown;
+             
+               margin: 15px auto;
+               border-top: solid 1px white;
+            }
+            #boderline1{
+                width:250px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+             
+               margin: 0px auto;
+          
+            }
+            #boderline2{
+                width:360px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+               border-top: solid 1px white;
+               margin: 3px auto;
+          
+            }
+
+
+    </style>
+</head>
+<body>
+    <div id="mainarea">
+        <div id="toparea">
+            <div id="toparea1">
+                <a href="tel:7903644286">7903644286 |<a href="#">umv.jsr@gmail.com</a></a>
+
+            </div>
+            <div id="toparea2">
+                <marquee>Well Come To UTKARMIT MADYA VIDHYALE</marquee>
+            </div>
+            <div id="toparea3">
+                <div class="fi"><a href="#"><img src="download.png"\></a></div>
+                <div class="fi"><a href="#"><img src="instagram.jpg"\></a></div>
+
+            </div>
+           
+        
+            
+
+        </div>
+        <div id="headerarea">
+            <div id="logo"><img src="logo.jpg"\></div>
+            <div id="title">
+                <div id="title1"><font color="darkblue" size="3px"><h1>UTKARMIT MADHYA VIDYALE</h1></font></div>
+                <div id="title2"><font color="darkblue"><h2>Affiliated to C.B.S.E, New Delhi  |  Affiliated No. -</h2></font></div>
+
+            </div>
+
+        </div>
+
+    
+        <div id="menuarea">
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="academic.html">ACADEMICS</a></li>
+                <li><a href="#">ADMISSION</a></li>
+                <li><a href="activities.html">ACTIVITIES</a> </li>
+                <li><a href="#">FACILITY</a></li>
+	 <li><a href="#">RESULT</a></li>
+                
+                <li><a href="#">NOTICE</a></li>
+                <li><a href="#">GALLARY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <div id="about">
+            <div id="about1"><H1><font color="white">ABOUT US</font></H1></div>
+
+        </div>
+        <div id="containt">
+            <div id="containt2"><img src="about1.jpg"\></div>
+            <div id="containt3">
+                <div id="thought"><h3><font color="red">"Education is the key to success in life, and teachers make a lasting impact in the lives of their students"</font></h3></div>
+                <div id="paragraph">
+                   
+                     <p><b>UTKARMIT MADHAYA VIDAYALE SCHOOL</b> is a Co-education, English Medium institution affiliated to <b>Central Board of Secondary Education(C.B.S.E.), New Delhi.</b> </br></br><b>UTKARMIT MADHAYA VIDAYALE SCHOOL</b>was started in the year 1998 at Bhatiya basti to meet the educational eeds of the growing city. The school belongs to Ramanand Foundation which has been registered under the registration of Societies Act, 1860.</br></br><b>UTKARMIT MADHAYA VIDAYALE SCHOOL</b> provides a congenial and aspiring environment for all round development of personality.</p>
+                     <p><b>UTKARMIT MADHAYA VIDAYALE SCHOOL</b> is committed to providing a safe and secured environment where students enjoy learning and recognize their worth, dignity and leadership capacity. The beautiful landscape, with its positive energy conscious buildings and fields complement and enhance the serenity of nature in the campus.UTKARMIT MADHAYA VIDAYALE SCHOOL has a quest to develop responsible global citizens by following curriculum and principles based on student centered learning and to impart world-class education to foster academic excellence, physical fitness, psychological and spiritual well-being, social consciousness and concern for our environment in each student through our own systems and practices. Driven by a passion to excel and committed to excellence, UTKARMIT MADHAYA VIDAYALE SCHOOL offers children an exceptional life-enhancing experience, providing them with the skills and confidence they need to stand out from the crowd. UTKARMIT MADHAYA VIDAYALE SCHOOL is a co-educational day and residential English medium school, guided by an educational philosophy that promotes the development of the whole person blending academics, athletics and creative achievement with opportunities for leadership and guiding our students into individuals ready to take challenges in every phase of life.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="pdesk">
+            <div id="pdesk1">
+               PRINCIPAL DESK
+             </div>
+            <div id="pmessage">
+                <div id="pmessage1">
+                    <div id="pmessage2" >
+                            <p><font color="red">"EDUCATION IS A SHARED COMMITMENT BETWEEN DEDICATED TEACHERS, MOTIVATED STUDENTS AND ENTHUSIASTIC PARENTS WITH HIGH EXPECTATIONS"</font></p>
+                            <p >Today, the role of a school is not only to pursue the academic excellence but also to motivate and empower the students to be lifelong learners, critical thinkers, and productive members of an ever-changing global society. Converting every individual into a self-reliant and independent citizen, our school provides an amalgam of scholastic and co-scholastic activities.</p>
+                            <p>The world today is changing at such an accelerated rate and we as educators need to pause and reflect on this entire system of Education."To Motivate the Late bloomers, To mold the Mediocre and To Challenge the Gifted” is the teaching notion. Providing good quality modern education including a strong component of cultural values, environment awareness and physical education to talented children in rural areas irrespective of their family’s socio-economic condition is the prime motto of Thaai. A committed and supportive management, dedicated teachers, caring and co-operative parents blend harmoniously to create this school as a child-centric school.</p>
+                            <p>I am sure that the positive attitude, hard work, sustained efforts and innovative ideas exhibited by our young children will surely stir the mind of the readers and take them to the fantastic world of unalloyed joy and pleasure. “Success comes to those who work hard and stays with those who don’t take rest on the laurels of the past”</p>
+                            <p>"With warm wishes and God's blessings".</p>
+                            <h4>K. CHITRA</h4>
+                            <p>PRINCIPAL</p>
+                        </div>
+                
+                      <div id="pmessage3">
+                        <img src="unnamed.jpg"\>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+       
+     
+                
+                <div id="facilities">
+                    <div id="f1">FACILITIES</div>
+
+                </div>
+                <div id="f2">
+                    <div id="f3">
+                        <div class="box">
+                            <div class="box2"><img src="physics-lab.jpg"\></div>
+                            <div class="box3"><P><font size="5px">PHYSICS LAB</font></P></div>
+                        </div>
+                        <div class="box">
+                            <div class="box2"><img src="download.jpg"\></div>
+                            <div class="box3"><P><font size="5px">COMPUTER LAB</font></P></div>
+                        </div>
+                        <div class="box">
+                            <div class="box2"><img src="library-2.jpg"\></div>
+                            <div class="box3"><P><font size="5px">LIBRARY</font></P></div>
+                        </div>
+                        <div class="box">
+                            <div class="box2"><img src="playground-7.jpg"\></div>
+                            <div class="box3"><P><font size="5px">PLAYGROUND</font></P></div>
+                        </div>
+                       
+
+                    </div>
+
+                </div>
+               
+                    <div id="footer">
+                        <div id="footer1">
+                            <div class="footer2">
+                                <div id="flogo"><img src="logo.jpg"\></div>
+                                <div id="fhead"><p><font color="white">UTKARMIT MADHYA VIDYALE</font></p></div>
+                                <div id="address"><font color="white">Address:-Bhatiya Basti,Adityapur Gamharia main road, Jharkhand-832109</font></div>
+                                <div id="contact"><font color="white">Contact:-</font><a href="tel:7903644286">7903644286</a></div>
+                                <div id="email"><font color="white">E-mail:-<a href="mail:umv.jsr@gmail.com">umv.jsr@gmail.com</a></font></div>
+                            </div>
+                            <div class="footer2">
+                                <div id="links1"><h3><font color="white">Imp. Link's</font></h3></div>
+                                <div id="links2">
+                                    <ul>
+                                        <li><a href="#">HOME</a></li><BR/>
+                                        <li><a href="#">HOME</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer2"></div>
+                        </div>
+
+                        <div id="boderline">
+                            <div id="boderline1"><font color="white" face="sans-serif"><b>© ALL Rights Reserved to U.M.V</b></font></div>
+                            <div id="boderline2"><font color="white" face="cursive"><b>Design & Devloped By:-S.K.Prasad Cse2021@</b></font></div>
+                        </div>
+                    </div>
+                    
+
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>

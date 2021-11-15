@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.myschoo.com</title>
+    <style>
+        body{
+            margin: 0;
+        }
+            #mainarea{
+                width: 100%;
+                height: auto;
+                background-color: aqua;
+            }
+            #toparea{
+                width: 100%;
+                height: 35px;
+                background-color: rgb(19, 30, 126);
+            }
+            #toparea1{
+                width: 250px;
+                height:15px;
+                background-color: crimson;
+                float: left;
+                margin: 10px 80px;
+               
+
+            }
+            #toparea a:link, #toparea a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #toparea a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #toparea2{
+                width: 500px;
+                height:20px;
+                background-color: crimson;
+                float: left;
+                margin: 7px 0;
+               
+            }
+            #toparea3{
+                width: 100px;
+                height:25px;
+                background-color: crimson;
+                float: right;
+                margin: 5px 90px;
+               
+            }
+            .fi{
+                width:40px;
+                height:25px;
+                background-color: chartreuse;
+                float: left;
+                margin:0 2px;
+               
+
+            }
+            .fi img{
+                width:100%;
+                height:100%;
+            }
+            
+               
+            
+            #headerarea{
+                width: 100%;
+                height: 150px;
+                background-color: coral;
+            }
+            #logo{
+                width: 110px;
+                height: 110px;
+                background-color: rgb(67, 211, 59);
+                float: left;
+                margin: 20px 90px;
+                border-radius: 50px;
+            }
+            #logo img{
+                width: 110px;
+                height: 110px;
+                border-radius: 50px;
+
+            }
+            #title{
+                width: 550px;
+                height: 100px;
+                float: left;
+                background-color: gray;
+                margin: 20px auto;
+            }
+            #title1{
+                width: 550px;
+                height: 50px;
+                float: left;
+                background-color: aqua;
+             
+            }
+            #title2{
+                width: 550px;
+                height: 50px;
+                background-color: bisque;
+                float: left;
+
+            }
+            #menuarea{
+                width: 100%;
+                height: 40px;
+                background-color:  rgb(19, 30, 126);
+            }
+            #menuarea ul{
+					list-style:none;
+					margin: 0 65px;
+					padding: 0;
+				}
+			#menuarea ul li{
+					float: left;
+					}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color: rgb(248, 233, 233);
+					text-decoration: none;
+					background: rgb(19, 30, 126);
+					padding: 10px 25px;
+					display: block;
+					border-bottom: solid 1px #000;
+					}
+			#menuarea ul li a:hover{
+					color: yellow;
+					background: red;
+				}
+			#menuarea ul li ul{
+					display: none;
+					}
+			#menuarea ul li:hover ul{
+					display: block;
+					position: absolute;
+					z-index: 100;
+					
+					}
+			#menuarea ul li:hover ul li{
+						float: none;
+						}
+            #about{
+                width:100%;
+                height:300px;
+                background-color: rgba(52, 65, 181, 0.7);
+                float: left;
+
+            }
+            #about1{
+                width: 165px;
+                height: 40px;
+               /* background-color: yellow;*/
+                margin: 120px auto;
+            }
+            #container{
+                width: 100%;
+                height: 1300px;
+                background-color: burlywood;
+                float: left;
+               
+            }
+            .rule{
+                width:100%;
+                height: 50px;
+                background-color: hotpink;
+                float: left;
+            }
+            .rule2{
+                width: 200px;
+                height: 30px;
+                background-color: aqua;
+                margin: 10px 100px;
+                border-left: solid 5px blue;
+              
+
+            }
+            .rule3{
+                width:100%;
+                height:600px;
+                background-color: lightgreen;
+                margin: 0px auto;
+                float: left;
+            }
+            .rule4{
+                width:1200px;
+                height:570px;
+                background-color: rgb(22, 208, 22);
+                margin: 25px auto;
+                
+            }
+            .rule5{
+                width:1200px;
+                height:220px;
+                background-color: rgb(225, 103, 58);
+                margin: 25px auto;
+                
+            }
+            .game{
+                width: 1000px;
+                height: 200px;
+                background-color: #fec233;
+                margin: 10px 30px;
+                float: left;
+                
+                
+
+            }
+            .game2{
+                width: 300px;
+                height: 300px;
+                background-color: #2968dc;
+                margin: 0px 50px;
+                float: left;
+                border-radius: 10px;
+            }
+           
+            .name{
+                width:300px;
+                height: 250px;
+                background-color: #fec233;
+                float: left;
+            }
+            .name img{
+                width: 300px;
+                height: 250px;
+
+            }
+            .name2{
+                width: 296px;
+                height: 40px;
+                margin: 5px 0px;
+                background-color: cadetblue;
+                float: left;
+                border-left: solid 4px darkblue;
+            }
+
+           
+          
+          
+       
+        
+           
+         
+           #footer{
+               width:100%;
+               height: 500px;
+               background-color:rgb(19, 30, 126); 
+               float: left;
+           }
+           #footer1{
+               width:1200px;
+               height:300px;
+               background-color: brown;
+              
+               margin: 60px auto;
+           }
+           .footer2{
+               width:300px;
+               height: 300px;
+               background-color: cadetblue;
+               margin:0px 50px;
+               float: left;
+               
+           }
+           #flogo{
+               width: 100px;
+               height: 100px;
+               background-color: chartreuse;
+               margin:25px auto;
+               border-radius: 50px;
+           }
+           #flogo img{
+               width: 100px;
+               height: 100px;
+               border-radius: 50px;
+           }
+           #fhead{
+               width:235px;
+               height: 20px;
+             /*  background-color: cyan;*/
+               margin: 0 auto;
+           }
+           #address{
+               width:230px;
+               height: 50px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact{
+                width:230px;
+               height: 20px;
+               /*background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+           }
+           #contact a:link, #contact a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #contact a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #email{
+                width:230px;
+               height: 20px;
+              /* background-color: rgb(0, 81, 255);*/
+               margin: 5px auto;
+              
+           }
+           #email a:link, #email a:visited{
+                color:white;
+                text-decoration: none;
+            }
+            #email a:hover{
+                 text-decoration: underline;
+                 color: rgb(240, 199, 63);
+            }
+            #links1{
+                width:100px;
+                height: 30px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                border-left: solid 5px white;
+
+            }
+            #links2{
+                width:100px;
+                height: 100px;
+                background-color: rgb(19, 30, 126);
+                margin: 25px auto;
+                
+
+            }
+            #boderline{
+                width:1200px;
+               height:50px;
+               background-color: brown;
+             
+               margin: 15px auto;
+               border-top: solid 1px white;
+            }
+            #boderline1{
+                width:250px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+             
+               margin: 0px auto;
+          
+            }
+            #boderline2{
+                width:360px;
+               height:15px;
+             /* background-color: rgb(91, 208, 52);*/
+               border-top: solid 1px white;
+               margin: 3px auto;
+          
+            }
+
+
+    </style>
+</head>
+<body>
+    <div id="mainarea">
+        <div id="toparea">
+            <div id="toparea1">
+                <a href="tel:7903644286">7903644286 |<a href="#">umv.jsr@gmail.com</a></a>
+
+            </div>
+            <div id="toparea2">
+                <marquee>Well Come To UTKARMIT MADYA VIDHYALE</marquee>
+            </div>
+            <div id="toparea3">
+                <div class="fi"><a href="#"><img src="download.png"\></a></div>
+                <div class="fi"><a href="#"><img src="instagram.jpg"\></a></div>
+
+            </div>
+           
+        
+            
+
+        </div>
+        <div id="headerarea">
+            <div id="logo"><img src="logo.jpg"\></div>
+            <div id="title">
+                <div id="title1"><font color="darkblue"><h1>UTKARMIT MADHYA VIDYALE</h1></font></div>
+                <div id="title2"><font color="darkblue"><h2>Affiliated to C.B.S.E, New Delhi  |  Affiliated No. -</h2></font></div>
+
+            </div>
+
+        </div>
+
+    
+        <div id="menuarea">
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="academic.html">ACADEMICS</a></li>
+                <li><a href="#">ADMISSION</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="#">FACILITY</a> </li>
+                <li><a href="#">RESULT</a></li>
+               
+                <li><a href="#">NOTICE</a></li>
+                <li><a href="#">GALLARY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <div id="about">
+            <div id="about1"><H1><font color="white">FACILITIES</font></H1></div>
+
+        </div>
+        <div id="container">
+            <div class="rule">
+                <div class="rule2"><h2>LAB </h2></div>
+            </div>
+            <div class="rule3">
+                <div class="rule4">
+                    <div class="rule5">
+                        <div class="game"><p ><font size="5px">There are several clubs functioning smoothly in our School such as the Internet club, the Jyoti club, the chain group, the Quiz club, the Chess club , the Adventure Club, the Eco-club, the Maths club, Physics club, Computer club, as well as the English and Hindi Club (Diary).</font></p></div>
+                        
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="physics-lab.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="download.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>COMPUTER LAB</b></font></P></div>
+
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="chemistry-lab.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>CHEMISTRY LAB</b></font></P></div>
+                    </div>
+                   
+                </div>
+
+            </div>
+            <div class="rule">
+                <div class="rule2"><h2>LIBRARY</h2></div>
+            </div>
+            <div class="rule3">
+                <div class="rule4">
+                    <div class="rule5">
+                        <div class="game"><p ><font size="5px">The Interact Club of School utkarmit madhya vidayale organized an Awareness program on Cervical Cancer in the school premises. The senior girls from std X--XII and their mothers were present. It was an informative program. Girls interacted freely with the doctor. Dr. Amit Kumar n his team from Brahmananda Multi speciality Hospital conducted the session.</font></p></div>
+                        
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="physics-lab.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="physics-lab.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                    </div>
+                    <div class="game2">
+                        <div class="name"><img src="physics-lab.jpg"\></div>
+
+                        <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rule">
+            <div class="rule2"><h2> PLAYGROUND </h2></div>
+        </div>
+        <div class="rule3">
+            <div class="rule4">
+                <div class="rule5">
+                    <div class="game"><p ><font size="5px">Interactors of utkarmit maddhya vidayale.. Conducted an Awareness program on Traffic Rules at the Loyola.. Beldih Signal Crossing.... They stopped the People who were not wearing Helmets, Seat Belts or talking over mobile phones... Told them..the importance of following traffic Rules and put a SMILEY STICKER on their vehicles.... (Hundred Stickers) ... Which they think... will remind them of today's incident... Passers by appreciated the effort and thanked them</font></p></div>
+                    
+                </div>
+                <div class="game2">
+                    <div class="name"><img src="physics-lab.jpg"\></div>
+
+                    <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                </div>
+                <div class="game2">
+                    <div class="name"><img src="physics-lab.jpg"\></div>
+
+                    <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                </div>
+                <div class="game2">
+                    <div class="name"><img src="physics-lab.jpg"\></div>
+
+                    <div class="name2"><P><font size="5px"><b>PHYSICS LAB</b></font></P></div>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+
+            
+
+
+        
+                
+               
+                    <div id="footer">
+                        <div id="footer1">
+                            <div class="footer2">
+                                <div id="flogo"><img src="logo.jpg"\></div>
+                                <div id="fhead"><p><font color="white">UTKARMIT MADHYA VIDYALE</font></p></div>
+                                <div id="address"><font color="white">Address:-Bhatiya Basti,Adityapur Gamharia main road, Jharkhand-832109</font></div>
+                                <div id="contact"><font color="white">Contact:-</font><a href="tel:7903644286">7903644286</a></div>
+                                <div id="email"><font color="white">E-mail:-<a href="mail:umv.jsr@gmail.com">umv.jsr@gmail.com</a></font></div>
+                            </div>
+                            <div class="footer2">
+                                <div id="links1"><h3><font color="white">Imp. Link's</font></h3></div>
+                                <div id="links2">
+                                    <ul>
+                                        <li><a href="#">HOME</a></li><BR/>
+                                        <li><a href="#">HOME</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer2"></div>
+                        </div>
+
+                        <div id="boderline">
+                            <div id="boderline1"><font color="white" face="sans-serif"><b>© ALL Rights Reserved to U.M.V</b></font></div>
+                            <div id="boderline2"><font color="white" face="cursive"><b>Design & Devloped By:-S.K.Prasad Cse2021@</b></font></div>
+                        </div>
+                    </div>
+                    
+
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>
